@@ -19,5 +19,4 @@ Route::group([
 ], function() {
     Route::get('/', 'HomeController@index')->name('home');
     Route::get(LaravelLocalization::transRoute('routes.contact'), 'HomeController@contatti')->name('contatti');
-    Route::get('/test', 'HomeController@test');
 });
